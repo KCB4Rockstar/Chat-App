@@ -1,0 +1,162 @@
+#mainBody{
+	background: black;
+	color: white;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*For Page Formatting*/
+.container2{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.header2{
+	flex: 0 1 auto;
+}
+.content2{
+	flex: 1 1 auto;
+	height: 1%;
+	padding: 20px;
+}
+.footer2{
+	flex: 0 1 auto;
+	width: 600px;
+}
+
+.message{
+	overflow-wrap: break-word;
+	background: darkblue;
+	opacity: 0.8;
+	padding: 7px;
+	border-radius: 10px;
+	border: 1px solid black;
+	color: dodgerblue;
+	font-size: 20px;
+	float: left;
+}
+
+.messageRight{
+	background: #888;
+	color: indigo;
+	font-size: 16px;
+	float: right;
+}
+
+.message span{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 30px;
+}
+
+.messageRight span{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+}
+
+.message .msg{
+	font-family: 'Roboto', sans-serif;
+}
+
+.center2{
+	margin: 0 auto;
+}
+
+#messageBox{
+	display: block;
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+#messageBox input{
+	width: 100%;
+	padding: 13px 20px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-radius: 50px;
+}
+
+.btn2{
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12.35px 16px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 50%;
+	margin: 10px 2px;
+}
+
+#sendMessage{
+	margin-left: 4px;
+	float: right;
+}
+
+#updateUser{
+	float: right;
+	background-color: indigo;
+}
+
+#messagesContainer{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#messagesHeader{
+	display: flex;
+	flex-direction: row;
+	margin: 7px 10px;
+}
+
+#allMessages{
+	overflow-y: auto;
+	border: 2px solid white;
+	height: 100%;
+	width: 550px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+#middleContent{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+#channelList{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#channelsHeader{
+	display: flex;
+	flex-direction: row;
+	margin: 7px 10px;
+}
+
+#channelsHeader button{
+	margin: 0 10px;
+}
+
+#channels{
+	margin: 0 10px;
+	border: 1px solid #ccc;
+	width: 300px;
+	height: 100%;
+}
+
+.channel{
+	padding: 10px;
+	font-size: 18px;
+	background: #aaa;
+	margin: 2px 2px;
+}
+
+.channel:hover{
+	background: #222;
+}
